@@ -29,3 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: github-actions-nodejs
+      uses: thonatos/github-actions-nodejs@v0.1.1
+          
+          
